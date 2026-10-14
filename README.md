@@ -10,6 +10,7 @@
 
 <p align="center"><b>Figure 1.</b> Overview of the MPAG-DTI architecture.<br>
 The model combines message-passing neural networks (MPNN) for drug molecules with an anchor-graph neural network for proteins, followed by a hybrid interaction module designed to handle severe class imbalance.</p>
+download the release it contains all training datasets, trained model and code. Follow the following steps: https://github.com/khushnood/mpagdti/releases/tag/mpagdti
 
 ---
 
