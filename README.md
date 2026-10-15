@@ -26,6 +26,7 @@ download the release it contains all training datasets, trained model and code. 
 
 ## 📦 Installation
 
+
 ### 1. Create environment
 
 ```bash
@@ -89,3 +90,11 @@ python main_repurposing.py --model_path ../results_MPAGDTI/random/output/pretrai
 
 # DAVIS model → NINJ1
 python main_repurposing.py --model_path ../results_MPAGDTI/random/output/pretrained_model_local/modelMPAGDTI_DAVIS_epoch200.pt --protein MDSGTEEYELNGGLPPGTPGSPDASPARWGWRHGPINVNHYASKKSAAESMLDIALLMANASQLKAVVEQGPSFAFYVPLVVLISISLVLQIGVGVLLIFLVKYDLNNPAKHAKLDFLNNLATGLVFIIVVVNIFITAFGVQKPLMDMAPQQ --dataset DAVIS  --top_n 50 --output ../results/repurposing_DAVIS_NINJ1.csv
+
+# Attribution
+
+This work utilizes code from [DeepPurpose](https://github.com/kexinhuang12345/DeepPurpose).
+
+> Huang, K., Fu, T., Glass, L. M., Zitnik, M., Wang, C., & Xiao, C. (2021).
+> DeepPurpose: a deep learning library for drug–target interaction prediction.
+> *Bioinformatics*, 36(22-23), 5545–5547.
