@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 <p align="center">
-  <img src="assets/GraphicalAsbstract.png" alt="MPAG-DTI Architecture" width="85%"/>
+  <img src="GraphicalAsbstract.png" alt="MPAG-DTI Architecture" width="85%"/>
 </p>
 
 <p align="center"><b>Figure 1.</b> Overview of the MPAG-DTI architecture.<br>
