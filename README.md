@@ -1,4 +1,4 @@
-# MPAG-DTI: A Hybrid Message-Passing and Anchor-Graph Neural Network for Imbalanced Drug-Target Interaction Prediction
+# MPAG-DTI: A Hybrid Message-Passing and Anchor-Graph Neural Network for Drug-Target Interaction Prediction
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.8.0-red.svg)](https://pytorch.org/)
