@@ -9,14 +9,14 @@
 </p>
 
 <p align="center"><b>Figure 1.</b> Overview of the MPAG-DTI architecture.<br>
-The model combines message-passing neural networks (MPNN) for drug molecules with an anchor-graph neural network for proteins, followed by a hybrid interaction module designed to handle severe class imbalance.</p>
+The model combines message-passing neural networks (MPNN) and an anchor-graph neural network for drug molecules and sequence based CNN based proteins, followed by a hybrid interaction module designed to handle severe class imbalance.</p>
 download the release it contains all training datasets, trained model and code. Follow the following steps: https://github.com/khushnood/mpagdti/releases/tag/mpagdti
 
 ---
 
 ## ✨ Highlights
 
-- **Hybrid Graph Architecture**: Message-Passing Neural Network (MPNN-GCN) for drugs + Anchor-Graph Neural Network for protein sequences
+- **Hybrid Graph Architecture**: Message-Passing Neural Network (MPNN-GCN) + Anchor-Graph Neural Network for for drugs and CNN for protein sequences
 - **Class-Imbalance Aware**: Weighted BCE  + early stopping on AUPRC
 - **Strong Generalization**: Pretrained models on DAVIS, BindingDB_Kd and KIBA
 - **Drug Repurposing Ready**: Rank any chemical library against a novel protein sequence in minutes
